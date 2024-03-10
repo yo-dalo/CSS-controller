@@ -13,6 +13,8 @@ const height_input =document.getElementById("height_input");
 //input_box__.appendChild(width_input);
 
 var cl;
+var cl_border;
+
 function handleInput(e) {
   var width_input_vl = width_input.value;
   cl.style.width = `${width_input_vl}px`;
@@ -27,8 +29,14 @@ function handleInput_(e) {
 ////)
 
 document.addEventListener("click", (e) => {
+  if (cl==e.target) {
+   
+  }else{
+    if (cl) {
+       cl.style.border=cl_border;
+    }
+  }
   cl = e.target;
-  console.log()
   if (e.target.getAttribute("data-free") == 'yo'|| e.target==document.body) {
     width_input.removeEventListener("input", handleInput)
 
@@ -36,7 +44,11 @@ document.addEventListener("click", (e) => {
   } else {
 
     width_input.value = window.getComputedStyle(cl).width.split('px')[0];
-    // console.log(cl_width)
+     cl_border= window.getComputedStyle(cl).border;
+
+
+
+
     if (cl) {
       cl.style.border="2px solid green";
       width_input.removeAttribute("disabled")
