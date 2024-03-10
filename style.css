@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.__main_button {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  width: 9vw;
+  height: 9vw;
+  padding: 1vw;
+  position: fixed;
+  top: 3vw;
+  right: 4vw;
+  z-index: 1900;
+}
+
+
+
+
+.__control_box {
+  width: 30vw;
+  height: 50vh;
+  position: fixed;
+  right: -50vw;
+  background: #373737;
+  z-index: 2000;
+  top: 2vw;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+
+}
+
+.__control_box .__control_box_
+{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: scroll;
+padding-top: 5vw;
+}
+   .__control_box .__control_box_
+ .__close___control_box_
+ {
+   width: 3vw;
+   height: 3vw;
+     border-radius: 10px;
+     background: #D7D7D7;
+     position: absolute;
+     top: 1vw;
+    right: 1vw;
+    z-index: 2100;
+ }
+ 
+ .__input_box_{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 2px;
+   padding: 1vw 0;
+ }
+  .__input_box_ :in-range{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  
+    .__input_box_ label{
+      font-size:12px;
+}
+
+
+
+.__input_box_ input[type=range] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 200px;
+  background-color: transparent;
+}
+.__input_box_ input[type=range]:focus {
+  outline-color: #f8b195;
+}
+.__input_box_ input[type=range]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 3px;
+  background: #f67280;
+  background: -webkit-linear-gradient(left, #f67280 0%, #c06c84 50%, #355c7d 100%);
+  background: linear-gradient(to right, #f67280 0%, #c06c84 50%, #355c7d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f67280", endColorstr="#355c7d", GradientType=1 );
+}
+.__input_box_ input[type=range]::-moz-range-track {
+  -moz-appearance: none;
+  appearance: none;
+  height: 3px;
+  background: #f67280;
+  background: -moz-linear-gradient(left, #f67280 0%, #c06c84 50%, #355c7d 100%);
+  background: linear-gradient(to right, #f67280 0%, #c06c84 50%, #355c7d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f67280", endColorstr="#355c7d", GradientType=1 );
+}
+.__input_box_ input[type=range]::-ms-track {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 3px;
+  background: #f67280;
+  background: -moz-linear-gradient(left, #f67280 0%, #c06c84 50%, #355c7d 100%);
+  background: -webkit-linear-gradient(left, #f67280 0%, #c06c84 50%, #355c7d 100%);
+  background: linear-gradient(to right, #f67280 0%, #c06c84 50%, #355c7d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f67280", endColorstr="#355c7d", GradientType=1 );
+}
+.__input_box_ input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 2px solid #f8b195;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  bottom: 8px;
+  background: #222 url("http://codemenatalie.com/wp-content/uploads/2019/09/slider-thumb.png") center no-repeat;
+  background-size: 50%;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+  cursor: grab;
+}
+.__input_box_ input[type=range]::-webkit-slider-thumb:active {
+  cursor: grabbing;
+}
+.__input_box_ input[type=range]::-moz-range-thumb {
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid #f8b195;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  bottom: 8px;
+  background: #222 url("http://codemenatalie.com/wp-content/uploads/2019/09/slider-thumb.png") center no-repeat;
+  background-size: 50%;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+  cursor: grab;
+}
+.__input_box_ input[type=range]::-moz-range-thumb:active {
+  cursor: grabbing;
+}
+.__input_box_ input[type=range]::-ms-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid #f8b195;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  bottom: 8px;
+  background: #222 url("http://codemenatalie.com/wp-content/uploads/2019/09/slider-thumb.png") center no-repeat;
+  background-size: 50%;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+  cursor: grab;
+}
+.__input_box_ input[type=range]::-ms-thumb:active {
+  cursor: grabbing;
+}
