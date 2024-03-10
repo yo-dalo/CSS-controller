@@ -179,3 +179,14 @@ padding-top: 5vw;
 .__input_box_ input[type=range]::-ms-thumb:active {
   cursor: grabbing;
 }
+
+
+
+
+
+.main_web{
+  width: 65vw;
+  height: 100vh;
+  background: #878585;
+  overflow: hidden;
+}
