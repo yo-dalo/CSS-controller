@@ -1,0 +1,56 @@
+.__enter_url {
+  width: 100vw;
+  height: 100vh;
+  background: #000000;
+  position: absolute;
+  top: 0;
+  z-index: 3000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #FFFFFF;
+ transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
+}
+
+.__enter_url h1 {
+  text-transform: uppercase;
+  color: crimson;
+
+}
+
+.__enter_url form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vw;
+  margin: 2vw 0;
+}
+
+.__enter_url input {
+  border: none;
+  outline: none;
+  padding: 1vw 2vw;
+  font-size: 2vw;
+  border: 1px solid black;
+  border-radius: 6px;
+    font-weight: 400;
+}
+
+.__enter_url button {
+  border: none;
+  outline: none;
+  padding: 1vw 7vw;
+  font-size: 2vw;
+  border: 1px solid black;
+  border-radius: 6px;
+  background: #353535;
+  color: #FFFFFF;
+}
+
+
+.__enter_url .example_url h3{
+  text-transform: lowercase;
+  font-weight: 300;
+}

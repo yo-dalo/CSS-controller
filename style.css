@@ -16,16 +16,16 @@ body {
 }
 
 .__main_button {
-  border: none;
-  outline: none;
-  border-radius: 50px;
-  width: 9vw;
-  height: 9vw;
-  padding: 1vw;
-  position: fixed;
-  top: 3vw;
-  right: 4vw;
-  z-index: 1900;
+  border: none !important;
+  outline: none !important;
+  border-radius: 50px !important;
+  width: 9vw !important;
+  height: 9vw !important;
+  padding: 1vw !important;
+  position: fixed !important;
+  top: 3vw !important;
+  right: 4vw !important;
+  z-index: 1900 !important;
 }
 
 
@@ -185,8 +185,7 @@ padding-top: 5vw;
 
 
 .main_web{
-  width: 65vw;
-  height: 100vh;
-  background: #878585;
-  overflow: hidden;
+  width: 65vw !important;
+  height: 100vh !important;
+  overflow: hidden !important;
 }

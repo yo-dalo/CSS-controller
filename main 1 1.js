@@ -26,6 +26,10 @@ document.addEventListener("click", (e) => {
     cl.style.border = cl_border;
   }
   cl = e.target;
+  if (e.target.getAttribute("href")==!'') {
+    console.log(e.target);
+  }
+
   if (e.target.getAttribute("data-free") === 'yo' || e.target === document.body) {
     width_input.removeEventListener("input", handleInput);
     height_input.removeEventListener("input", handleInput_);
